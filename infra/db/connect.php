@@ -1,16 +1,66 @@
 <?php
 
+
+    // Endereço do servidor do banco.
+    // "localhost" significa que o banco está na mesma máquina.
     $host = "localhost";
+
+    // Usuário do banco de dados.
     $user = "root";
+
+    // Senha do usuário do banco.
     $pass = "root";
+
+    // Nome do banco de dados que será utilizado.
     $db = "sistema_simples_m1";
 
+    // Cria uma conexão com o banco utilizando a classe mysqli.
+    // Passa host, usuário, senha e nome do banco.
     $conn = new mysqli($host,$user,$pass,$db);
 
+    // Verifica se ocorreu algum erro na conexão.
     if($conn->connect_error){
+
+        // Encerra o programa e mostra a mensagem de erro.
         die("Erro na conexão!");
     }else{
+
+        // Executa JavaScript no navegador.
+        // A mensagem aparecerá no Console (F12).
         echo "<script>console.log('Banco conectado com sucesso!')</script>";
     };
 
 ?>
+
+//$host :
+Variável que armazena o endereço do banco.
+
+$user :
+Variável que armazena o usuário do banco.
+
+$pass :
+Variável que armazena a senha do banco.
+
+$db :
+Variável que armazena o nome do banco.
+
+$conn :
+Variável que armazenará a conexão criada.
+
+new :
+Cria um novo objeto de uma classe.
+
+mysqli :
+Classe do PHP usada para conectar ao MySQL.
+
+new mysqli(...) :
+Cria uma conexão com o banco de dados.
+
+$conn->connect_error :
+Verifica se houve erro ao conectar.
+
+die() :
+Encerra imediatamente a execução do programa.
+
+echo :
+Exibe algo na tela.

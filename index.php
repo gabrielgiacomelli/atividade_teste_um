@@ -109,7 +109,7 @@
 </body>
 </html>
 
-<!-- <?php ... ?> :
+<!-- php
 Delimita o início e o fim de um bloco PHP.
 Tudo dentro dessas tags será interpretado pelo servidor PHP.
 

@@ -25,7 +25,6 @@
         // e os valores são os valores correspondentes a essas colunas para a linha atual do resultado da consulta.
 
     // aqui vamos exibir os dados dos usuários cadastrados na tabela
-
         echo "  <tr>
                     <td>". $linha['id'] . "</td>
                     <td>". $linha['usuario'] . "</td>

@@ -3,7 +3,7 @@
 //inicia a sessão
 session_start();
 
-//verifica se existe uma sessão chamada usuáreio, caso não exista, redireciona para a página de login
+//verifica se existe uma sessão chamada usuário, caso não exista, redireciona para a página de login
 if(!isset($_SESSION["usuario"])){
     header("Location: ../index.php");
 
@@ -67,6 +67,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         ?>
         <br>
         <button type="submit">Cadastrar</button>
+    </form>
+
+    
+    <form method="POST" action="delete.php">
+        <button type="submit">Deletar Usuário</button>
     </form>
     <hr>
     <?php

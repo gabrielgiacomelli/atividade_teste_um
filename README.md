@@ -1,5 +1,3 @@
-# Nome do Projeto
-
 ## Descrição
 
 Projeto desenvolvido com o objetivo de aprender e praticar o desenvolvimento web utilizando HTML, PHP e MySQL.

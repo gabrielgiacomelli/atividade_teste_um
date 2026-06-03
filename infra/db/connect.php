@@ -31,36 +31,3 @@
     };
 
 ?>
-
-//$host :
-Variável que armazena o endereço do banco.
-
-$user :
-Variável que armazena o usuário do banco.
-
-$pass :
-Variável que armazena a senha do banco.
-
-$db :
-Variável que armazena o nome do banco.
-
-$conn :
-Variável que armazenará a conexão criada.
-
-new :
-Cria um novo objeto de uma classe.
-
-mysqli :
-Classe do PHP usada para conectar ao MySQL.
-
-new mysqli(...) :
-Cria uma conexão com o banco de dados.
-
-$conn->connect_error :
-Verifica se houve erro ao conectar.
-
-die() :
-Encerra imediatamente a execução do programa.
-
-echo :
-Exibe algo na tela.

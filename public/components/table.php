@@ -1,9 +1,9 @@
 <h4>Usuários Cadastrados</h4>
 
-// aqui vamos criar uma tabela para exibir os usuários cadastrados no banco de dados
+<!-- aqui vamos criar uma tabela para exibir os usuários cadastrados no banco de dados -->
 <table border="1" cellpadding="3">
 
-// tr cria uma linha, th cria um cabeçalho para a tabela, td cria uma célula para a tabela
+<!-- tr cria uma linha, th cria um cabeçalho para a tabela, td cria uma célula para a tabela -->
     <tr>
         <th>ID</th>
         <th>Usuário</th>

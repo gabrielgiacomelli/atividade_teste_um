@@ -45,7 +45,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <title>Home</title>
 </head>
 <body>
-    <h3>Bem-Vindo! <?php echo $_SESSION["usuario"]; ?></h3>
+    <h3>Bem-Vindo!  <?php echo $_SESSION["usuario"]; ?></h3>
     <a href="logout.php"> Sair</a>
 
     <hr>
@@ -68,19 +68,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <br>
         <button type="submit">Cadastrar</button>
     </form>
-
-    
-    <form method="POST" action="delete.php">
-        <button type="submit">Deletar Usuário</button>
-    </form>
     <hr>
     <?php
     //Inclui o arquivo da tabela de usuários, que exibe a lista de usuários cadastrados no banco de dados
     include("components/table.php")
 
     ?>
-
-
-
+    <h3>Excluir Usuário</h3>
+    <a href="delete.php">Clique aqui para excluir um usuário</a>
 </body>
 </html>

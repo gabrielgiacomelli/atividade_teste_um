@@ -20,6 +20,9 @@
 
     // aqui vamos verificar se a consulta retornou algum resultado
     while($linha = $resultadoTodosUsuarios->fetch_assoc()){
+        // fetch_assoc() é um método que retorna um array associativo com os dados da linha atual do resultado da consulta, 
+        // ou seja, ele retorna um array onde as chaves são os nomes das colunas da tabela 
+        // e os valores são os valores correspondentes a essas colunas para a linha atual do resultado da consulta.
 
     // aqui vamos exibir os dados dos usuários cadastrados na tabela
 
